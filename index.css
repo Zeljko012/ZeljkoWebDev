@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+header img {
+    position: relative;
+    height: 100va;
+    width: 100vw;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+/* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */
+@media screen and (prefers-reduced-motion: no-preference) {
+html {
+scroll-behavior: smooth;
+}
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #DCDCDC;
+    /* box-sizing: border-box; */
+    color: snow;
+    font: 300 1rem/1.65 "Roboto", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+body *, body *:before, body *:after {
+    box-sizing: inherit;
+}
+
+/* header {
+    background-color: #00b6e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    } */
+
+/* header h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+    letter-spacing: 1px;
+} */
+
+nav {
+    background-color: snow;
+    box-shadow: 0 3px 10px rgba(204, 204, 204, 0.5);
+    position: sticky; /* modern browsers */
+    top: 0;
+    transition: background-color 250ms linear;
+    width: 100%;
+    z-index: 999;
+}
+
+.is-fixed { /* JS will apply this for IE11 / Edge 15 */
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    line-height: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+nav a {
+    color: #3e7093;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 25px;
+    display: block;
+    transition: all 150ms linear;
+}
+
+nav a:hover,
+nav a:focus {
+    /* 2020-02-26 */
+    background-color: #3e7093;
+    color: snow;
+}
+
+.is-scrolled {
+    background-color: #3e7093;
+    transition: background-color 250ms linear;
+}
+
+.is-scrolled a {
+    color: #fff;
+}
+
+.is-scrolled a:hover,
+.is-scrolled a:focus,
+.is-scrolled a:active,
+.is-scrolled a.is-selected {
+    /* 2020-02-26 */
+    background-color: snow;
+    color: #3e7093;
+}
+
+.main {
+    display: block;
+    /* IE 11 */
+    margin: 0 auto;
+    /* min-height: 1600px; */
+    /* max-width: 80ch; */
+    padding-bottom: 30px;
+    /* margin-left: 400px; */
+    /* margin-right: 400px; */
+}
+
+.main p {
+    font-size: 1rem;
+    margin: 2em auto;
+    color: #3e7093;
+}
+
+.main h3 {
+    letter-spacing: 0.1em;
+    scroll-margin: 20px 0 0 0;
+    text-transform: uppercase;
+    color: #3e7093;
+
+}
+
+.main h3:first-child {
+    margin-top: 2em;
+    /* padding-top: 1px; */
+
+}
+
+
+/* 2020-02-24
+https://css-tricks.com/hash-tag-links-padding/ */
+.main h3::before {
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.my-skills {
+    letter-spacing: 0.1em;
+    scroll-margin: 20px 0 0 0;
+    text-transform: uppercase;
+    color: snow;
+
+}
+
+.about-me {
+    max-width: 80ch;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.cards {
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
