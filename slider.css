@@ -35,6 +35,9 @@
   align-items: center;
   justify-content: center;
   color: #fff;
+    border-radius: 30px;
+    /* margin-bottom: 5px; */
+
 }
 
 .left-slide h1 {
