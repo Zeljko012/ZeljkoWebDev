@@ -208,7 +208,7 @@ form#send .main-btn-rect i {
 .share-wrap{
 	position: relative;
   /* display: inline-table; */
-	top: 67%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
   padding: 15px;
