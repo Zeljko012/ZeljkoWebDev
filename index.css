@@ -43,6 +43,7 @@ body {
     padding: 0;
     overflow-y: scroll;
     max-width: 100%;
+
 }
 
 body *, body *:before, body *:after {
