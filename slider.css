@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
     /* background-color: #0D1B2B;  */
-    /* overflow-x: hidden;  */
+    overflow-x: hidden; 
     font-family: roboto; 
     -webkit-font-smoothing: antialiased; 
     margin: 0;
@@ -26,7 +26,7 @@ body {
 }
 
 .slide-image {
-    height: 30vw;
+    height: 42vw;
 
 }
 
@@ -146,12 +146,17 @@ div.overlay-blue:hover {
     background-image: url(Images/second.jpg);
     padding-bottom: auto;
     /* filter: blur(5px); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* <= This one */
+    padding-bottom: 200px;
 }
 
 .my-skills h3 {
     padding-bottom: 40px;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 80px;
     color: snow;
 
 }

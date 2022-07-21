@@ -7,9 +7,15 @@
 
 
 header img {
-    position: relative;
+    background-image: url(Images/header1.jpg);
+    /* position: relative; */
     height: 100va;
     width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* <= This one */
+    
 }
 
 
@@ -22,13 +28,13 @@ scroll-behavior: smooth;
 }
 }
 
-html {
+/* html {
     height: 100%;
     max-width: 100%;
-}
+} */
 
 body {
-    background-color: #DCDCDC;
+    background-color: snow;
     /* box-sizing: border-box; */
     color: snow;
     font: 300 1rem/1.65 "Roboto", sans-serif;
@@ -123,7 +129,7 @@ nav a:focus {
     margin: 0 auto;
     /* min-height: 1600px; */
     /* max-width: 80ch; */
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     /* margin-left: 400px; */
     /* margin-right: 400px; */
 }
@@ -165,7 +171,6 @@ https://css-tricks.com/hash-tag-links-padding/ */
     scroll-margin: 20px 0 0 0;
     text-transform: uppercase;
     color: snow;
-
 }
 
 .about-me {
@@ -173,11 +178,13 @@ https://css-tricks.com/hash-tag-links-padding/ */
     text-align: left;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 290px;
 
 }
 
 .cards {
     box-sizing: border-box;
+
 
 }
 
