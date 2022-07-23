@@ -22,18 +22,18 @@ button {
 	top: 20%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 45px;
+	font-size: 55px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: snow;
-  /* margin-top: 50px; */
+  padding-bottom: 15px;
 }
 .contacth2 h2 {
 	position: relative;
 	top: 35%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-  font-size: 25px;
+  font-size: 35px;
 	text-align: center;
 	color: snow;
   padding-bottom: 30px;
@@ -305,13 +305,14 @@ form#send .main-btn-rect i {
 }
 
 .contact {
-  background-image: url(Images/third.jpg);
+  background-image: url(Images/contact.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; /* <= This one */
   /* margin-top: 250px; */
-  padding-bottom: 145px;
+  padding-bottom: 250px;
   height: 42vw;
+  /* filter: blur(8px); */
 
 }

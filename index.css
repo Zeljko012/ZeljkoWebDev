@@ -135,7 +135,7 @@ nav a:focus {
 }
 
 .main p {
-    font-size: 1rem;
+    font-size: 18px;
     margin: 2em auto;
     color: #3e7093;
 }
@@ -172,6 +172,14 @@ https://css-tricks.com/hash-tag-links-padding/ */
     scroll-margin: 20px 0 0 0;
     text-transform: uppercase;
     color: snow;
+}
+
+.main .slider h3 {
+    font-size: 50px;
+        letter-spacing: 0.1em;
+    scroll-margin: 20px 0 0 0;
+    text-transform: uppercase;
+    color: #3e7093;
 }
 
 .about-me {
