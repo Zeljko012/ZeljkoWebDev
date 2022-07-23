@@ -179,7 +179,7 @@ https://css-tricks.com/hash-tag-links-padding/ */
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 290px;
+    padding-bottom: 295px;
 
 }
 
@@ -189,10 +189,10 @@ https://css-tricks.com/hash-tag-links-padding/ */
 
 }
 
-.slider h3 {
-    /* position: absolute; */
-    /* overflow: hidden; */
-}
+/* .slider h3 {
+    position: absolute;
+    overflow: hidden;
+} */
 
 
 
