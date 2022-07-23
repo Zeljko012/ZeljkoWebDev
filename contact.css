@@ -310,6 +310,9 @@ form#send .main-btn-rect i {
   background-size: 1900px 1104px;
   overflow: -moz-scrollbars-vertical;
   overflow-y: scroll;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed; /* <= This one */
+
   
 }
 
