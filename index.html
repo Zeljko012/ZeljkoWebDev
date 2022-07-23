@@ -219,7 +219,10 @@
 
 
 
-
+            <script>	jQuery(window).scroll(function(){
+                var fromtop = jQuery(window).scrollTop();
+                jQuery(" your element ").css({"background-position-y": fromtop+"px"});
+            });</script>
 
             <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
