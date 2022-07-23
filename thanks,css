@@ -6,18 +6,10 @@
 
 .body {
     color: snow;
-    /* background-image: url(Images/contact.jpg); */
-    height: 100va;
-    width: 100vw;
-    
-    
 }
 
 .text h1 {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: auto;
-    padding-bottom: auto;
-
+text-align: center;
+padding-top: 15%;
 
 }
