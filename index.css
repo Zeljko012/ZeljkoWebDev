@@ -188,6 +188,7 @@ https://css-tricks.com/hash-tag-links-padding/ */
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 295px;
+    
 
 }
 
@@ -196,6 +197,11 @@ https://css-tricks.com/hash-tag-links-padding/ */
 
 
 }
+
+/* .img {
+    width: 100px;
+    float: right;
+} */
 
 /* .slider h3 {
     position: absolute;
