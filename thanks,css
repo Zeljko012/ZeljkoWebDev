@@ -4,5 +4,5 @@
 }
 
 .body h1 {
-    position: center;
+    position: fixed;
 }
