@@ -1,5 +1,6 @@
 .body {
     color: snow;
+    background-image: url(Images/contact.jpg);
 
 }
 
