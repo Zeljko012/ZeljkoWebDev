@@ -208,7 +208,6 @@ form#send .main-btn-rect i {
 }
 .share-wrap{
 	position: relative;
-  /* display: inline-table; */
 	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -310,11 +309,9 @@ form#send .main-btn-rect i {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* <= This one */
-  /* margin-top: 250px; */
+  background-attachment: fixed; 
   padding-bottom: 250px;
   height: 42vw;
-  /* filter: blur(8px); */
 
 }
 

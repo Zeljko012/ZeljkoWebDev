@@ -24,8 +24,6 @@ function init() {
       ticking = false;
     };
   
-    /* See:
-  <https://www.html5rocks.com/en/tutorials/speed/animations/#debouncing-scroll-events> */
     let onScroll = function () {
       latestKnownScrollY = window.pageYOffset;
       if (!ticking) {
@@ -39,9 +37,8 @@ function init() {
   
   document.addEventListener('DOMContentLoaded', init, false);
   
-  /* 2020-02-26 - Added Intersection Observer which works basically in all browsers except IE. See browser support at
-   https://caniuse.com/#feat=intersectionobserver
-  */
+
+  
   if ('IntersectionObserver' in window) {
     const options = {
       root: null,

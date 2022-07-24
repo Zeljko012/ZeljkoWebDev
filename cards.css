@@ -4,22 +4,9 @@
 *::before {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
 }
 
-/* html {
-  font-size: 62.5%;
-}
 
-body {
-  width: 100vw;
-  min-height: 100vh;
-  background-color: #f0f0f0;
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .container {
   position: relative;
@@ -101,4 +88,3 @@ body {
     transform: translate(0, -3.5rem);
   }
 }
-/*# sourceMappingURL=main.css.map */

@@ -6,10 +6,7 @@
   padding: 0;
 }
 
-/* body {
-  font-family: 'Lato', sans-serif;
-  height: 100vh;
-} */
+
 
 .slider-container {
   position: relative;
@@ -36,7 +33,6 @@
   justify-content: center;
   color: #fff;
     border-radius: 30px;
-    /* margin-bottom: 5px; */
 
 }
 
