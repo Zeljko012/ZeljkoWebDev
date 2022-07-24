@@ -37,6 +37,7 @@ button {
 	text-align: center;
 	color: snow;
   padding-bottom: 30px;
+  font-family: 'BebasNeueRegular', sans-serif;
 }
 .popup-btn{
 	position: absolute;

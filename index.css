@@ -18,7 +18,7 @@ font-size: 140px;
 text-shadow: 4px 4px 0px #3F7FBF;
 mix-blend-mode: screen;
 animation: fadeIn 4s linear forwards;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: 'BebasNeueRegular', sans-serif;
 }
 
 
@@ -76,6 +76,7 @@ nav {
     transition: background-color 250ms linear;
     width: 100%;
     z-index: 999;
+    font-family: 'BebasNeueRegular', sans-serif;
 }
 
 .is-fixed { /* JS will apply this for IE11 / Edge 15 */
@@ -140,6 +141,7 @@ nav a:focus {
     font-size: 18px;
     margin: 2em auto;
     color: #3e7093;
+    font-family: 'BebasNeueRegular', sans-serif;
 }
 
 .main h3 {
@@ -148,6 +150,7 @@ nav a:focus {
     text-transform: uppercase;
     color: #3e7093;
     font-size: 40px;
+    font-family: 'BebasNeueRegular', sans-serif;
 
 }
 
@@ -182,6 +185,11 @@ https://css-tricks.com/hash-tag-links-padding/ */
     scroll-margin: 20px 0 0 0;
     text-transform: uppercase;
     color: #3e7093;
+    
+}
+
+.left-slide h1 {
+    font-family: 'BebasNeueRegular', sans-serif;
 }
 
 .about-me {
@@ -190,8 +198,11 @@ https://css-tricks.com/hash-tag-links-padding/ */
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 295px;
-    
+    font-family: 'BebasNeueRegular', sans-serif;
+}
 
+.about-me p {
+    font-family: 'BebasNeueRegular', sans-serif;
 }
 
 .cards {
@@ -199,6 +210,16 @@ https://css-tricks.com/hash-tag-links-padding/ */
 
 
 }
+
+.box {
+    font-family: 'BebasNeueRegular', sans-serif;
+}
+
+.box span {
+    font-family: 'BebasNeueRegular', sans-serif;
+}
+
+
 
 
 
