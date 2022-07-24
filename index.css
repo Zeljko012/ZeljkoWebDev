@@ -22,8 +22,6 @@ header img {
 
 .proba4 {
     background: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);    display: flex;
-    height: 100%;
-    width: 100%;
     padding: 1rem;
     justify-content: center;
     align-items: center;
@@ -37,6 +35,9 @@ text-shadow: 4px 4px 0px #3F7FBF;
 mix-blend-mode: screen;
 animation: fadeIn 4s linear forwards;
 }
+
+
+
 
 
 
