@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="Index.css" type="text/css">
+        <title>Željko Prović</title>
+        <style>
+            @font-face {
+                font-family: 'Source Serif Pro';
+                src: url('C:/Windows/Fonts/SourceSerifPro-Regular.ttf');
+            }
+            body {
+                font-family: 'Source Serif Pro', serif;
+            }
+        </style>
+
+    </head>
+    <body>
+        <nav>
+            <div class="logo">Zeljko Provic</div>
+            <div class="menu-toggle"><i class="fa fa-bars"></i></div>
+            <ul class="navigation">
+                <li><a href="#home-section">HOME</a></li>
+                <li><a href="#projects-section">PROJECTS</a></li>
+                <li><a href="#about-me-section">ABOUT ME</a></li>
+                <li><a href="#contact-section">CONTACT</a></li>
+            </ul>
+        </nav>
+
+          
+          <main>
+            <div class="container">
+                <section id="home-section">
+                        <div class="flex-box">
+                            <div class="item-1">
+                                <div class="column-1">
+                                    <h1 class="fs-h1">Bringing your <br> ideas to life</h1>
+                                </div>
+                                <div class="column-2">
+                                    <h2 class="fs-h2">using Webflow to assess your <br> digital needs</h2>
+                                </div>
+                                <div class="column-3">
+                                    <div class="in-git">
+                                        <img class="in-img" src="Images/Linkedin-img.png">
+                                        <img class="git-img" src="Images/Git-img.png">
+                                    </div>
+                                    <div class="tech-stack">
+                                        <img src="Images/html5.png">
+                                        <img src="Images/css3.png">
+                                        <img src="Images/js.png">
+                                        <img src="Images/reactjs.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-2">
+                                <section class="image-section"></section>
+                                    <img src="Images/Portfolio-image.png">
+                                </section>
+                            </div>
+                        </div>
+                </section>
+            </div>
+
+            <div class="container">
+                <section id="projects-section">
+                    <h2 class="ss-h2">Recent projects</h2>
+                    <div class="flex-box">
+                        <div class="item-3">
+                            <div class="column-4">
+                                <img src="Images/pozadinaz.png">
+                            </div>
+                        </div>
+                        <div class="item-4">
+                            <div class="column-5">
+                                <h3 class="ss-h3">Ime projekta</h3>
+                            </div>
+                            <div class="column-6">
+                                <p class="ss-p">Lorem ipsum dolor sit amet <br> consectetur. Bibendum sit urna <br> turpis molestie facilisi. Cras <br> vestibulum enim aenean viverra <br> egestas sit habitant. </p>
+                            </div>
+                            <div class="column-7">
+                                <button class="project-btn" onclick="window.location.href='proba.html'">Visit site <img class="arrow" src="Images/arrow.png"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-box2">
+                        <div class="item-5">
+                            <div class="column-8">
+                                <h3 class="ss-h3">Ime projekta</h3>
+                            </div>
+                            <div class="column-9">
+                                <p class="ss-p">Lorem ipsum dolor sit amet <br> consectetur. Bibendum sit urna <br> turpis molestie facilisi. Cras <br> vestibulum enim aenean viverra <br> egestas sit habitant. </p>
+                            </div>
+                            <div class="column-10">
+                                <button class="project-btn" onclick="window.location.href='proba.html'">Visit site <img class="arrow" src="Images/arrow.png"></button>
+                            </div>
+                        </div>
+                        <div class="item-6">
+                            <img src="Images/pozadinaz.png">
+                        </div>
+                    </div>
+                    <div class="project-bottom-wrapper">
+                        <button class="project-bottom-btn">More projects <img class="down-arrow" src="Images/arrow-down.png"></button>
+                    </div>
+                </section>
+            </div>
+            
+            <div class="container">
+                <section id="about-me-section">
+                    <h2 class="ts-h2">About me</h2>
+                    <div class="flex-box">
+                        <div class="item-7">
+                            <p class="ts-p">Lorem ipsum dolor sit amet consectetur. Pretium at duis lorem porttitor. Mi at quis massa sed mattis. Habitant quam sed nunc amet. Semper lacus nisl arcu amet. Venenatis praesent duis non sed mauris aliquet.<br><br>
+
+                                Arcu bibendum morbi vitae commodo etiam mattis placerat diam pharetra. Gravida aliquet vulputate amet aenean pellentesque. Pellentesque lectus purus lacus quis nisi lacus.<br><br>
+                                
+                                Viverra mi ipsum tincidunt ac odio pretium gravida. Libero sed est dis adipiscing. Magna ac eu tellus tellus at eget ac nunc. 
+                                At neque varius suspendisse felis. </p>
+                        </div>
+                        <div class="item-8">
+                            <div class="img-v-scroll">
+                                <img src="Images/pozadinats.png">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section id="contact-section">
+                <div class="container">
+                    <h2 class="fos-h2">Feel free to <br> get in touch</h2>
+                    <form action="send-email.php" method="GET">
+                        <table>
+                          <tr>
+                            <td><input type="text" id="name" name="name" placeholder="Ime:" required></td>
+                          </tr>
+                          <tr>
+                            <td><input type="email" id="email" name="_replyto" placeholder="E-mail:" required></td>
+                          </tr>
+                          <tr>
+                            <td><textarea id="message" name="message" placeholder="Poruka:" required></textarea></td>
+                          </tr>
+                        </table>
+                        <br>
+                        <input type="submit" value="Pošalji">
+                      </form>
+                      
+                      
+                </div>
+            </section>
+            <section id="footer-section">
+                <div class="container">
+                    <div class="flex-box">
+                        <div class="item-9">
+                            <div class="column-11">
+                                <h3 class="fus-h3">ZELJKO PROVIC</h3>
+                            </div>
+                            <div class="column-12">
+                                <a href="https://www.novastranica.com">
+                                    <img class="fus-img" src="Images/Linkedin-img.png">
+                                </a>
+                                <a href="https://www.novastranica.com">
+                                    <img class="fus-img" src="Images/Git-img.png">
+                                </a>
+                                  
+                            </div>
+                        </div>
+                        <div class="item-10">
+                            <h3 class="fus-nav-h3">MAIL</h3>
+                            <a href="mailto:proviczeljko@gmail.com">
+                                <h3 class="fus-nav-h3">proviczeljko@gmail.com</h3>
+                            </a>
+                        </div>
+                        <div class="item-11"></div>
+                    </div>
+                </div>
+            </section>
+
+          </main>
+        <script src="Index.js"></script>
+          
+    </body>
+</html>
