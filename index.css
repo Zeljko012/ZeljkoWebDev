@@ -244,10 +244,21 @@ nav {
     transition: all 0.3s ease-in-out;
   }
 
+
+@media (min-width: 576px) {
+  .nav-links a {
+    font-family: 'Georgia pro', serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+}
+
+@media (min-width: 1201px) {
   .nav-links a {
     font-family: 'Georgia pro', serif;
     font-weight: 500;
     font-size: 20px;
+}
 }
 
 /* Cart start  */
@@ -404,7 +415,7 @@ nav {
     .fs-h1 {
       text-align: center;
       color: #fff;
-      font-size: 110px;
+      font-size: 130px;
       font-weight: 400;
     }
   }
@@ -423,7 +434,7 @@ nav {
     .fs-h3 {
       text-align: center;
       color: #fff;
-      font-size: 50px;
+      font-size: 70px;
       font-weight: 400;
       margin: 0%;
     }
