@@ -101,8 +101,18 @@ nav {
     padding-bottom: 215px;
   }
 
-  #projects-section {
-    padding-top: 230px;
+  @media (min-width: 576px) {
+    #projects-section {
+      padding-top: 130px;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    #projects-section {
+      padding-top: 230px;
+      text-align: left;
+    }
   }
 
   #about-me-section {
@@ -152,6 +162,7 @@ nav {
     display: block;
     justify-content: space-between;
     height: 100%;
+    text-align: center;
   }
 }
 
@@ -160,14 +171,52 @@ nav {
     display: flex;
     justify-content: space-between;
     height: 100%;
+    text-align: left;
   }
 }
 
-.flex-box2 {
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
-  margin-top: 150px;
+@media (min-width: 576px) {
+  .flex-box2 {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 150px;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1201px) {
+  .flex-box2 {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 150px;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 576px) {
+  .item-5 {
+    order: 2;
+  }
+}
+
+@media (min-width: 1201px) {
+  .item-5 {
+    order: 1;
+  }
+}
+
+@media (min-width: 576px) {
+  .item-6 {
+    order: 1;
+  }
+}
+
+@media (min-width: 1201px) {
+  .item-6 {
+    order: 2;
+  }
 }
 
 @media (min-width: 576px) {
