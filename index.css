@@ -147,11 +147,20 @@ nav {
   text-align: center;
 }
 
+@media (min-width: 576px) {
+  .flex-box {
+    display: block;
+    justify-content: space-between;
+    height: 100%;
+  }
+}
 
-.flex-box {
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
+@media (min-width: 1201px) {
+  .flex-box {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
 }
 
 .flex-box2 {
@@ -161,9 +170,17 @@ nav {
   margin-top: 150px;
 }
 
+@media (min-width: 576px) {
+  .item-1, .item-2 {
+    flex-basis: 50%;
+    text-align: center;
+  }
+}
 
-.item-1, .item-2 {
-  flex-basis: 50%;
+@media (min-width: 1201px) {
+  .item-1, .item-2 {
+    flex-basis: 50%;
+  }
 }
 
 .item-2 img {
