@@ -530,15 +530,30 @@ form {
   background-color: transparent;
 }
 
-input[type="text"], input[type="email"], textarea {
-  border: 2px solid purple;
-  border-radius: 25px;
-  padding: 10px;
-  margin-bottom: 20px;
-  width: 100%;
-  background-color: transparent;
-  font-size: 30px;
-}
+@media (min-width: 576px) {
+  input[type="text"], input[type="email"], textarea {
+    border: 2px solid purple;
+    border-radius: 25px;
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: transparent;
+    font-size: 30px;
+  }
+  }
+
+
+@media (min-width: 1201px) {
+  input[type="text"], input[type="email"], textarea {
+    border: 2px solid purple;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: transparent;
+    font-size: 20px;
+  }
+  }
 
 input, textarea {
   padding-bottom: 100px;
