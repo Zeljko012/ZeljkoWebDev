@@ -154,14 +154,28 @@ nav {
     margin-right: 10px;
   }
 
-  .project-btn {
-    border: none;
-    background-color: transparent;
-    font-size: 25px;
-    font-weight: 500;
-    padding: 0%;
-    text-align: left;
-    cursor: pointer;
+  @media (min-width: 576px) {
+    .project-btn {
+      border: none;
+      background-color: transparent;
+      font-size: 35px;
+      font-weight: 500;
+      padding: 0%;
+      text-align: left;
+      cursor: pointer;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    .project-btn {
+      border: none;
+      background-color: transparent;
+      font-size: 25px;
+      font-weight: 500;
+      padding: 0%;
+      text-align: left;
+      cursor: pointer;
+    }
   }
 
 .project-bottom-btn {
@@ -476,16 +490,41 @@ nav {
       }
       }
 
-.ts-h2 {
-  font-size: 60px;
-  margin: 0%;
-  padding-bottom: 50px;
-}
+@media (min-width: 576px) {
+  .ts-h2 {
+    font-size: 90px;
+    margin: 0%;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  }
 
-.ts-p {
-  font-size: 30px;
-  margin-right: 100px;
-}
+
+@media (min-width: 1201px) {
+  .ts-h2 {
+    font-size: 60px;
+    margin: 0%;
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  }
+
+@media (min-width: 576px) {
+  .ts-p {
+    font-size: 40px;
+    margin-right: 100px;
+    text-align: left;
+  }
+  }
+
+
+@media (min-width: 1201px) {
+  .ts-p {
+    font-size: 30px;
+    margin-right: 100px;
+    text-align: left;
+  }
+  }
 
 form {
   background-color: transparent;
