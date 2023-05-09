@@ -433,7 +433,7 @@ nav {
 
 @media (min-width: 576px) {
   .ss-h2 {
-    font-size: 70px;
+    font-size: 90px;
     margin: 0%;
     padding-bottom: 50px;
 }
@@ -450,7 +450,7 @@ nav {
 
   @media (min-width: 576px) {
     .ss-h3 {
-      font-size: 50px;
+      font-size: 70px;
       margin: 0%;
     }
     }
@@ -465,7 +465,7 @@ nav {
 
     @media (min-width: 576px) {
       .ss-p {
-        font-size: 40px;
+        font-size: 60px;
       }
       }
     
