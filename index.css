@@ -23,13 +23,25 @@ nav {
     right: 0;
     z-index: 999;
   }
+
+  @media (min-width: 576px) {
+    .logo {
+      font-size: 34px;
+      font-weight: 550;
+      font-family: "Source Serif Pro", serif;
+      color: #6237A0;
+    }  
+    }
   
-  .logo {
-    font-size: 32px;
-    font-weight: 550;
-    font-family: "Source Serif Pro", serif;
-    color: #6237A0;
-  }
+  
+  @media (min-width: 1201px) {
+    .logo {
+      font-size: 32px;
+      font-weight: 550;
+      font-family: "Source Serif Pro", serif;
+      color: #6237A0;
+    }  
+    }
   
   .menu-toggle {
     display: none;
@@ -344,7 +356,7 @@ nav {
 
 @media (min-width: 576px) {
   .fs-h1 {
-    font-size: 85px;
+    font-size: 80px;
     font-family: "Source Serif Pro", serif;
     font-weight: 600;
     margin: 0%;
@@ -368,7 +380,7 @@ nav {
 
 @media (min-width: 576px) {
   .fs-h2 {
-    font-size: 45px;
+    font-size: 40px;
     font-family: "Source Serif Pro", serif;
     font-weight: 500;
     margin: 10px;
@@ -499,10 +511,20 @@ form, table {
   font-size: 30px;
 }
 
-.fus-nav-h3, a {
-  font-size: 25px;
-  text-decoration: none;
+@media (min-width: 576px) {
+  .fus-nav-h3, a {
+    font-size: 27px;
+    text-decoration: none;
 }
+  }
+
+
+@media (min-width: 1201px) {
+  .fus-nav-h3, a {
+    font-size: 25px;
+    text-decoration: none;
+}
+  }
 
 
 
