@@ -25,103 +25,91 @@ body{
   }  
   }
 
-/* Navigacioni meni */
-#menu {
-  z-index: 2;
-}
-
-#menu-bar {
-  width: 45px;
-  height: 40px;
-  margin: 30px 0 20px 20px;
-  cursor: pointer;
-}
-
-.bar {
-  height: 5px;
-  width: 100%;
-  background-color: #DC052D;
-  display: block;
-  border-radius: 5px;
-  transition: 0.3s ease;
-}
-
-#bar1 {
-  transform: translateY(-4px);
-}
-
-#bar3 {
-  transform: translateY(4px);
-}
-
-.nav {
-  transition: 0.3s ease;
-  display: none;
-}
-
-.nav ul {
-  padding: 0 22px;
-}
-
-.nav li {
-  list-style: none;
-  padding: 12px 0;
-}
-
-.nav li a {
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-.nav li a:hover {
-  font-weight: bold;
-}
-
-.menu-bg, #menu {
-  top: 0;
-  left: 0;
-  position: absolute;
-}
-
-.menu-bg {
-  z-index: 1;
-  width: 0;
-  height: 0;
-  margin: 30px 0 20px 20px;
-  background: radial-gradient(circle, #DC052D, #DC052D);
-  border-radius: 50%;
-  transition: 0.3s ease;
-}
-
-.change {
-  display: block;
-}
-
-.change .bar {
-  background-color: white;
-}
-
-.change #bar1 {
-  transform: translateY(4px) rotateZ(-45deg);
-}
-
-.change #bar2 {
-  opacity: 0;
-}
-
-.change #bar3 {
-  transform: translateY(-6px) rotateZ(45deg);
-}
-
-.change-bg {
-  width: 520px;
-  height: 460px;
-  transform: translate(-60%,-30%);
-}
+/* Navbar styling */
+nav {
+    background-color: #E4E4E4;
+    opacity: 90%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
 
 
   
+  .menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  
+  
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    font-weight: 550;
+  }
+  
+  .navigation li {
+    list-style: none;
+    margin-left: 40px;
+  }
+  
+  .navigation li:first-child {
+    margin-left: 0;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #6237A0;
+    transition: color 0.3s ease;
+  }
+  
+  .navigation a:hover {
+    color: gray;
+  }
+  
+  /* Hamburger menu */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+    
+    .navigation {
+      display: none;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 0;
+    }
+    
+    .navigation li {
+      margin: 10px 0;
+    }
+    
+    .navigation a {
+      font-size: 20px;
+    }
+    
+    .navigation.show {
+      display: flex;
+    }
+  }
   
   #home-section {
     /* height: 100vh; */
@@ -443,27 +431,50 @@ body{
   margin-left: 0%;
 }
 
-
-
-.ss-h2 {
-  font-size: 60px;
-  margin: 0%;
-  padding-bottom: 50px;
+@media (min-width: 576px) {
+  .ss-h2 {
+    font-size: 70px;
+    margin: 0%;
+    padding-bottom: 50px;
 }
+  }
 
-.ss-h3 {
-  font-size: 40px;
-  margin: 0%;
-}
 
-.ss-p {
-  font-size: 30px;
+@media (min-width: 1201px) {
+  .ss-h2 {
+    font-size: 60px;
+    margin: 0%;
+    padding-bottom: 50px;
 }
+  }
 
-.project-btn img{
-  width: 14%;
-  margin: none;
-}
+  @media (min-width: 576px) {
+    .ss-h3 {
+      font-size: 50px;
+      margin: 0%;
+    }
+    }
+  
+  
+  @media (min-width: 1201px) {
+    .ss-h3 {
+      font-size: 40px;
+      margin: 0%;
+    }
+    }
+
+    @media (min-width: 576px) {
+      .ss-p {
+        font-size: 40px;
+      }
+      }
+    
+    
+    @media (min-width: 1201px) {
+      .ss-p {
+        font-size: 30px;
+      }
+      }
 
 .ts-h2 {
   font-size: 60px;
@@ -543,31 +554,15 @@ form, table {
 }
   }
 
-
-
-
-
-
-
-
-
-/* .image-section::before {
-  content: "";
-  background: linear-gradient(to right, #8E2DE2, #4A00E0);
-  position: absolute;
-  bottom: 0;
-  left: 5.9%;
-  z-index: -1;
-  width: 78.4%;
-  height: 80%;
-  border-radius: 50px 50px 50px 50px;
-}
-
-.image-section img {
-  position: absolute;
-  top: 0;
-  left: 10%;
-  width: 80%;
-  height: 100%;
-  object-fit: cover;
+/* .artisan-img, img {
+  width: 90%;
 } */
+
+
+
+
+
+
+
+
+
