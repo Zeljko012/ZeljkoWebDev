@@ -360,7 +360,7 @@ nav {
 
 @media (min-width: 576px) {
   .fs-h1 {
-    font-size: 80px;
+    font-size: 100px;
     font-family: "Source Serif Pro", serif;
     font-weight: 600;
     margin: auto;
@@ -385,7 +385,7 @@ nav {
 
 @media (min-width: 576px) {
   .fs-h2 {
-    font-size: 40px;
+    font-size: 55px;
     font-family: "Source Serif Pro", serif;
     font-weight: 500;
     margin: auto;
