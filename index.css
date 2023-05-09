@@ -537,7 +537,7 @@ input[type="text"], input[type="email"], textarea {
   margin-bottom: 20px;
   width: 100%;
   background-color: transparent;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 input, textarea {
@@ -561,13 +561,37 @@ input[type="submit"]:hover {
   color: purple;
 }
 
-form, table {
-  width: 70%;
-}
+@media (min-width: 576px) {
+  form, table {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  }
 
-.fos-h2 {
-  font-size: 70px;
-}
+
+@media (min-width: 1201px) {
+  form, table {
+    width: 70%;
+    margin: 0%;
+    text-align: left;
+  }
+  }
+
+@media (min-width: 576px) {
+  .fos-h2 {
+    font-size: 90px;
+    text-align: center;
+  }
+  }
+
+
+@media (min-width: 1201px) {
+  .fos-h2 {
+    font-size: 60px;
+    text-align: left;
+  }
+  }
 
 #footer-section {
   padding-bottom: 20px;
