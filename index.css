@@ -440,10 +440,16 @@ nav {
 
 .tech-stack img {
   width: 8%;
-  margin-right: 60px;
+  /* margin-right: 60px; */
   margin-top: 100px;
   margin-left: 0%;
 }
+
+.tech-stack-img-1 {
+  margin-right: 60px;
+}
+
+
 
 @media (min-width: 576px) {
   .ss-h2 {
@@ -536,7 +542,7 @@ form {
     border-radius: 25px;
     padding: 30px;
     margin-bottom: 20px;
-    width: 100%;
+    width: 90%;
     background-color: transparent;
     font-size: 30px;
   }
@@ -559,17 +565,34 @@ input, textarea {
   padding-bottom: 100px;
 }
 
-input[type="submit"] {
-  background-color: purple;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  padding: 10px 20px;
-  cursor: pointer;
-  width: 15%;
-  font-size: 20px;
+@media (min-width: 576px) {
+  input[type="submit"] {
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 30%;
+    font-size: 30px;
+  
+  }
+  }
 
-}
+
+@media (min-width: 1201px) {
+  input[type="submit"] {
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 15%;
+    font-size: 20px;
+  
+  }
+  }
 
 input[type="submit"]:hover {
   background-color: white;
@@ -579,8 +602,11 @@ input[type="submit"]:hover {
 @media (min-width: 576px) {
   form, table {
     width: 90%;
+    margin: 0%;
+    padding: 0%;
     margin: auto;
     text-align: center;
+    justify-content: center;
   }
   }
 
@@ -632,9 +658,7 @@ input[type="submit"]:hover {
 }
   }
 
-/* .artisan-img, img {
-  width: 90%;
-} */
+
 
 
 
