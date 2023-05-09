@@ -327,7 +327,7 @@ nav {
     left: 22.1%;
     z-index: -1;
     width: 55.7%;
-    height: 90%;
+    height: 110%;
     border-radius: 50px 50px 50px 50px;
     animation: pulse 8s ease-in-out infinite alternate;
     background: linear-gradient(to right, #8E2DE2, #4A00E0, #8E2DE2);
