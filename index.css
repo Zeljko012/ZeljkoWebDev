@@ -417,7 +417,7 @@ body{
 
 @media (min-width: 576px) {
   .fs-h1 {
-    font-size: 100px;
+    font-size: 4.5rem;
     font-family: "Source Serif Pro", serif;
     font-weight: 600;
     margin: auto;
@@ -442,7 +442,7 @@ body{
 
 @media (min-width: 576px) {
   .fs-h2 {
-    font-size: 55px;
+    font-size: 2.2rem;
     font-family: "Source Serif Pro", serif;
     font-weight: 500;
     margin: auto;
@@ -517,7 +517,7 @@ body{
 
 @media (min-width: 576px) {
   .ss-h2 {
-    font-size: 90px;
+    font-size: 4rem;
     margin: 0%;
     padding-bottom: 50px;
     text-align: center;
@@ -536,7 +536,7 @@ body{
 
   @media (min-width: 576px) {
     .ss-h3 {
-      font-size: 70px;
+      font-size: 4rem;
       margin: 0%;
       padding-bottom: 50px;
     }
@@ -599,7 +599,7 @@ body{
 
 @media (min-width: 576px) {
   .ts-h2 {
-    font-size: 90px;
+    font-size: 4rem;
     margin: 0%;
     padding-bottom: 50px;
     text-align: center;
@@ -618,7 +618,7 @@ body{
 
 @media (min-width: 576px) {
   .ts-p {
-    font-size: 40px;
+    font-size: 1.8rem;
     margin-right: 100px;
     text-align: left;
   }
