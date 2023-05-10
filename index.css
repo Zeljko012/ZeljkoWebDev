@@ -178,24 +178,29 @@ body{
   @media (min-width: 576px) {
     .project-btn {
       border: none;
-      background-color: transparent;
-      font-size: 35px;
+      background-color: #facf0f;
+      font-size: 30px;
       font-weight: 500;
-      padding: 0%;
-      text-align: left;
+      padding: 15px;
+      text-align: center;
       cursor: pointer;
+      border-radius: 10px;
+      width: 200px;
     }
   }
   
   @media (min-width: 1201px) {
     .project-btn {
       border: none;
-      background-color: transparent;
-      font-size: 25px;
+      background-color: #facf0f;
+      font-size: 20px;
       font-weight: 500;
-      padding: 0%;
-      text-align: left;
+      padding: 10px;
+      text-align: center;
       cursor: pointer;
+      border-radius: 10px;
+      width: 150px;
+      font-weight: 600;
     }
   }
 
@@ -596,6 +601,8 @@ body{
         font-size: 1.8rem;
         font-weight: 500;
         width: 500px;
+        text-align: left;
+        margin: 0%;
       }
       }
 
@@ -605,6 +612,7 @@ body{
     margin: 0%;
     padding-bottom: 50px;
     text-align: left;
+    padding: 20px;
   }
   }
 
