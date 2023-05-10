@@ -649,7 +649,7 @@ form {
 
 @media (min-width: 576px) {
   input[type="text"], input[type="email"], textarea {
-    border: 2px solid purple;
+    border: 2px solid #333;
     border-radius: 25px;
     padding: 30px;
     margin-bottom: 20px;
@@ -662,7 +662,7 @@ form {
 
 @media (min-width: 1201px) {
   input[type="text"], input[type="email"], textarea {
-    border: 2px solid purple;
+    border: 2px solid #333;
     border-radius: 25px;
     padding: 10px;
     margin-bottom: 20px;
@@ -678,8 +678,8 @@ input, textarea {
 
 @media (min-width: 576px) {
   input[type="submit"] {
-    background-color: purple;
-    color: white;
+    background-color: #facf0f;
+    color: #333;
     border: none;
     border-radius: 25px;
     padding: 10px 20px;
@@ -693,8 +693,8 @@ input, textarea {
 
 @media (min-width: 1201px) {
   input[type="submit"] {
-    background-color: purple;
-    color: white;
+    background-color: #facf0f;
+    color: #333;
     border: none;
     border-radius: 25px;
     padding: 10px 20px;
@@ -706,8 +706,8 @@ input, textarea {
   }
 
 input[type="submit"]:hover {
-  background-color: white;
-  color: purple;
+  background-color: #333;
+  color: #facf0f;
 }
 
 @media (min-width: 576px) {
