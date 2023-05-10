@@ -22,7 +22,7 @@ body{
 
 @media (min-width: 1201px) {
   .logo {
-    font-size: 32px;
+    font-size: 29px;
     font-weight: 550;
     color: #333;
   }  
@@ -767,7 +767,7 @@ input[type="submit"]:hover {
 
 @media (min-width: 1201px) {
   .fus-nav-h3, a {
-    font-size: 25px;
+    font-size: 22px;
     text-decoration: none;
 }
   }
