@@ -4,6 +4,7 @@ body{
 
 * p {
   color: #666;
+  font-weight: 500;
 }
 
 * p, h1, h2, h3, h4, h5, h6 {
@@ -596,7 +597,7 @@ body{
     
     @media (min-width: 1201px) {
       .ss-p {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 500;
         width: 500px;
         text-align: left;
@@ -631,15 +632,17 @@ body{
     text-align: left;
     margin: auto;
     padding: 20px;
+    font-weight: 500;
   }
   }
 
 
 @media (min-width: 1201px) {
   .ts-p {
-    font-size: 30px;
+    font-size: 1.6rem;
     margin-right: 100px;
     text-align: left;
+    font-weight: 500;
   }
   }
 
