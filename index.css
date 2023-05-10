@@ -594,15 +594,16 @@ body{
       .ss-p {
         font-size: 1.8rem;
         font-weight: 500;
+        width: 500px;
       }
       }
 
 @media (min-width: 576px) {
   .ts-h2 {
-    font-size: 4rem;
+    font-size: 5rem;
     margin: 0%;
     padding-bottom: 50px;
-    text-align: center;
+    text-align: left;
   }
   }
 
@@ -618,9 +619,11 @@ body{
 
 @media (min-width: 576px) {
   .ts-p {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     margin-right: 100px;
     text-align: left;
+    margin: auto;
+    padding: 20px;
   }
   }
 
