@@ -1,5 +1,5 @@
 body{
-  background-color: #E4E4E4;
+  background-color: #ffffff;
 }
 
 * p {
@@ -32,7 +32,7 @@ body{
 
 @media (min-width: 576px) {
   nav {
-    background-color: #E4E4E4;
+    background-color: #ffffff;
     opacity: 90%;
     width: 90%;
     margin: 0 auto;
@@ -52,7 +52,7 @@ body{
 
 @media (min-width: 1201px) {
   nav {
-    background-color: #E4E4E4;
+    background-color: #ffffff;
     opacity: 90%;
     width: 1600px;
     margin: 0 auto;
