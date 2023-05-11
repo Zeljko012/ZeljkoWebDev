@@ -844,7 +844,7 @@ input[type="submit"]:hover {
 
 @media (min-width: 576px) {
   .skills-skill {
-    padding: 0.5rem 1.5rem;
+    padding: 1.5rem 2rem;
     margin-bottom: 1.5rem;
     margin-right: 1rem;
     font-size: 2.1rem;
