@@ -806,15 +806,28 @@ input[type="submit"]:hover {
   }
   }
 
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-}
+  @media (min-width: 576px) {
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 30px;
+    }
+    }
+  
+  
+  @media (min-width: 1201px) {
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+    }
+    }
 
 @media (min-width: 576px) {
   .skills-title {
     text-align: left;
     font-size: 4rem;
+    padding: 30px;
   }
   }
 
@@ -823,6 +836,7 @@ input[type="submit"]:hover {
   .skills-title {
     text-align: left;
     font-size: 35px;
+    padding: 0;
     margin: 0;
     padding-bottom: 50px;
   }
