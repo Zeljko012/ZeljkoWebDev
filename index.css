@@ -794,6 +794,7 @@ input[type="submit"]:hover {
 @media (min-width: 576px) {
   .laptop-img {
     width: 90%;
+    padding-bottom: 50px;
   }
   }
 
@@ -801,6 +802,7 @@ input[type="submit"]:hover {
 @media (min-width: 1201px) {
   .laptop-img {
     width: 130%;
+    padding-bottom: 0;
   }
   }
 
