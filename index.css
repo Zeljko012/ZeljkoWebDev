@@ -239,7 +239,7 @@ body{
     display: flex;
     justify-content: space-between;
     height: 100%;
-    margin-top: 150px;
+    margin-top: 170px;
     flex-direction: column;
   }
 }
