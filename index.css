@@ -826,7 +826,7 @@ input[type="submit"]:hover {
 @media (min-width: 576px) {
   .skills-title {
     text-align: left;
-    font-size: 4rem;
+    font-size: 5rem;
     padding: 30px;
   }
   }
@@ -847,7 +847,7 @@ input[type="submit"]:hover {
     padding: 0.5rem 1.5rem;
     margin-bottom: 1.5rem;
     margin-right: 1rem;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     background: rgba(153,153,153,.2);
     border-radius: 5px;
     font-weight: 600;
