@@ -765,6 +765,7 @@ input[type="submit"]:hover {
   .fus-nav-h3, a {
     font-size: 27px;
     text-decoration: none;
+    color: #333;
 }
   }
 
@@ -850,7 +851,7 @@ input[type="submit"]:hover {
     font-size: 2.1rem;
     background: rgba(153,153,153,.2);
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 550;
     color: #666;
   }
   }
@@ -864,7 +865,7 @@ input[type="submit"]:hover {
     font-size: 1.1rem;
     background: rgba(153,153,153,.2);
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 550;
     color: #666;
   }
   }
