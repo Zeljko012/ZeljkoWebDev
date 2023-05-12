@@ -1,26 +1,36 @@
 <?php
-// postavite varijable s podacima iz obrasca
+require 'PHPMailer-master';
+require 'PHPMailer-master/src/SMTP.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+
 $name = $_POST['name'];
 $email = $_POST['_replyto'];
 $message = $_POST['message'];
 
-// postavite adresu e-pošte na koju želite poslati poruku
-$to = 'proviczeljko@gmail.com';
+// Inicijalizacija PHPMailer objekta
+$mail = new PHPMailer();
 
-// postavite naslov e-pošte
-$subject = 'Nova poruka sa sajta';
+// Postavke poslužitelja za slanje e-pošte
+$mail->isSMTP();
+$mail->Host = 'smtp.example.com';
+$mail->SMTPAuth = true;
+$mail->Username = 'your_username';
+$mail->Password = 'your_password';
+$mail->SMTPSecure = 'tls';
+$mail->Port = 587;
 
-// postavite poruku e-pošte
-$body = "Ime: $name\nEmail: $email\nPoruka:\n$message";
+// Postavke e-pošte
+$mail->setFrom($email, $name);
+$mail->addAddress('proviczeljko@gmail.com');
+$mail->Subject = 'Nova poruka sa sajta';
+$mail->Body = "Ime: $name\nEmail: $email\nPoruka:\n$message";
 
-// postavite zaglavlje e-pošte
-$headers = "From: $email\r\n";
-$headers .= "Reply-To: $email\r\n";
-
-// pošaljite e-poštu
-if (mail($to, $subject, $body, $headers)) {
+// Slanje e-pošte
+if ($mail->send()) {
     echo 'Vaša poruka je uspješno poslana.';
 } else {
-    echo 'Došlo je do pogreške prilikom slanja poruke.';
+    echo 'Došlo je do pogreške prilikom slanja poruke: ' . $mail->ErrorInfo;
 }
 ?>
