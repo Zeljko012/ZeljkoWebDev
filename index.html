@@ -128,21 +128,23 @@
             <section id="contact-section">
                 <div class="container">
                     <h2 class="fos-h2">Feel free to <br> get in touch</h2>
-                    <form action="send-email.php" method="POST">
+                    <form id="my-form">
                         <table>
-                            <tr>
-                                <td><input type="text" id="name" name="name" placeholder="Name:" required></td>
-                            </tr>
-                            <tr>
-                                <td><input type="email" id="email" name="_replyto" placeholder="E-mail:" required></td>
-                            </tr>
-                            <tr>
-                                <td><textarea id="message" name="message" placeholder="Message:" required></textarea></td>
-                            </tr>
+                          <tr>
+                            <td><input type="text" id="name" name="name" placeholder="Name:" required></td>
+                          </tr>
+                          <tr>
+                            <td><input type="email" id="email" name="email" placeholder="E-mail:" required></td>
+                          </tr>
+                          <tr>
+                            <td><textarea id="message" name="message" placeholder="Message:" required></textarea></td>
+                          </tr>
                         </table>
                         <br>
                         <input type="submit" value="Submit">
-                    </form>
+                      </form>
+                      
+                    
                       
                       
                       
