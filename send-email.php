@@ -1,6 +1,6 @@
 <?php
-require 'PHPMailer-master';
-require realpath ('PHPMailer-master\src\SMTP.php');
+require 'PHPMailer-master\src\PHPMailer.php';
+require 'PHPMailer-master\src\SMTP.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
