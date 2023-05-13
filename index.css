@@ -747,7 +747,7 @@ input[type="submit"]:hover {
 
 @media (min-width: 1201px) {
   .fos-h2 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: left;
   }
   }
