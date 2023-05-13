@@ -12,21 +12,18 @@ navigationLinks.forEach(link => {
 });
 
 
-function redirectToPage() {
-  window.location.href = "https://www.example.com"; // zamijenite sa stvarnom URL adresom ciljne stranice
-}
 
 // Email form
 
 document.getElementById('my-form').addEventListener('submit', function(event) {
   event.preventDefault(); // sprečava podnošenje forme
 
-  // Dohvatanje vrednosti iz forme
+  // Retrieving a value from a form
   var name = document.getElementById('name').value;
   var email = document.getElementById('email').value;
   var message = document.getElementById('message').value;
 
-  // Slanje e-poruke putem Email.js
+  // Sending an email using Email.js
   emailjs.send('service_fo9a1nr', 'template_btfj4vo', {
     to_email: 'proviczeljko@gmail.com',
     from_name: name,
