@@ -491,13 +491,13 @@ body{
 
 
 .tech-stack img {
-  width: 8%;
+  width: 45%;
   margin-top: 100px;
   margin-left: 0%;
 }
 
 .tech-stack-img-1 {
-  margin-right: 60px;
+  /* margin-right: 60px; */
 }
 
 .ss-btn-wrapper {
