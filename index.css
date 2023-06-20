@@ -245,6 +245,7 @@ body{
     justify-content: space-between;
     height: 100%;
     margin-top: 170px;
+    margin-bottom: 170px;
     flex-direction: column;
   }
 }
