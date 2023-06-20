@@ -252,11 +252,12 @@ body{
 @media (min-width: 1201px) {
   .flex-box2 {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 5rem;
     justify-content: space-between;
     height: 100%;
     margin-top: 150px;
+    margin-bottom: 150px;
     flex-direction: row;
   }
 }
@@ -803,7 +804,7 @@ input[type="submit"]:hover {
 
 @media (min-width: 1201px) {
   .laptop-img {
-    width: 130%;
+    width: 100%;
     padding-bottom: 0;
   }
   }
