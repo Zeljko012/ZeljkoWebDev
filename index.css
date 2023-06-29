@@ -202,7 +202,7 @@ body{
       font-weight: 500;
       padding: 20px;
       text-align: center;
-      cursor: pointer;
+      cursor: none;
       border-radius: 10px;
       width: 300px;
     }
@@ -704,7 +704,7 @@ input, textarea {
     border: none;
     border-radius: 25px;
     padding: 10px 20px;
-    cursor: pointer;
+    cursor: none;
     width: 30%;
     font-size: 30px;
   
@@ -725,6 +725,19 @@ input, textarea {
   
   }
   }
+
+  @media (min-width: 576px) {
+    .fus-img, img {
+      cursor: none;
+    }
+    }
+  
+  
+  @media (min-width: 1201px) {
+    .fus-img, img {
+      cursor: pointer;
+    }
+    }
 
 input[type="submit"]:hover {
   background-color: #333;
@@ -780,6 +793,7 @@ input[type="submit"]:hover {
     font-size: 27px;
     text-decoration: none;
     color: #333;
+    cursor: none;
 }
   }
 
@@ -788,6 +802,7 @@ input[type="submit"]:hover {
   .fus-nav-h3, a {
     font-size: 22px;
     text-decoration: none;
+    cursor: pointer;
 }
   }
 
