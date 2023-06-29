@@ -96,10 +96,21 @@ body{
     color: #333;
     transition: color 0.3s ease;
   }
+
+  @media (min-width: 576px) {
+    .navigation a:hover {
+      color: #facf0f;
+      cursor: none;
+    }
+    }
   
-  .navigation a:hover {
-    color: #facf0f;
-  }
+  
+  @media (min-width: 1201px) {
+    .navigation a:hover {
+      color: #facf0f;
+      cursor: pointer;
+    }
+    }
   
   /* Hamburger menu */
   @media (max-width: 768px) {
